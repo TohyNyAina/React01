@@ -1,0 +1,58 @@
+
+/* =================================================HEAD================================================ */
+.head{
+    display: flex;
+}
+/* =================================================Gauche============================================== */
+.gauche{
+    border: solid 1px #fff;
+    width: 30%;
+}
+
+.sary{
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/* ==================================================Droite============================================= */
+.droite{
+    border: solid 1px #fff;
+    border-radius: 10px;
+    background-color: #3b6eda;
+    color: #fff;
+    width: 70%;
+    text-align: center;
+}
+
+.about{
+    text-align: left;
+}
+
+
+/* =================================================CONTAINER=========================================== */
+.container{
+    display: flex;
+}
+
+.formation{
+    border: solid 1px #fff;
+    width: 33.33%;
+}
+
+.activites{
+    border: solid 1px #fff;
+    width: 33.33%;
+}
+
+.competences{
+    border: solid 1px #fff;
+    width: 33.33%; 
+}
+
+.butt{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
