@@ -45,7 +45,9 @@ const Formation = () => {
   
   const updateFormation = () => {
     setFormation(previousState => {
-      return { ...previousState, b: "Etude superieur en Informatiques", a: "Bacc Serie D" }
+      return  { ...previousState, b: "Etude superieur en Informatiques", 
+                                  a: "Bacc Serie D" 
+              }
     });
   }
 
@@ -69,7 +71,10 @@ const Avtivites = () => {
   
   const updateActivites = () => {
     setActivites(previousState => {
-      return { ...previousState, c: "Membre de la communaute TechZara", b: "Frontend Awards", a: "DevKilonga CoderDojo" }
+      return  { ...previousState, c: "Membre de la communaute TechZara", 
+                                  b: "Frontend Awards", 
+                                  a: "DevKilonga CoderDojo" 
+              }
     });
   }
 
@@ -98,7 +103,14 @@ const Competences = () => {
   
   const updateCompetences = () => {
     setCompetences(previousState => {
-      return { ...previousState, g: "HTML", f:"CSS", e:"JavaScript", d:"ReactJS", c: "PHP", b: "Laravel", a: "My SQL" }
+      return  { ...previousState, g: "HTML", 
+                                  f:"CSS", 
+                                  e:"JavaScript", 
+                                  d:"ReactJS", 
+                                  c: "PHP", 
+                                  b: "Laravel", 
+                                  a: "My SQL" 
+              }
     });
   }
 
